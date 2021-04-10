@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row text-center mt-5">
+            <div class="col-12">
+                <select class="custom-select mb-3" id="SelectOffers"></select>
+            </div>
+            <div class="col-12">
+                <form>
+                    <div class="form-group mb-3">
+                        <input type="tetx" class="form-control" id="idProductOffer" placeholder="PO_ID_OFFER">
+                    </div>    
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="nombreOffer" placeholder="NAME_OFFER">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="colo-12">
+            <table class="table" id="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Caracteristicas</th>
+                    <th scope="col">Nombre Precio</th>
+                    <th scope="col">Monto</th>
+                  </tr>
+                </thead>
+                <tbody id="data"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/offers.js"></script>
+</body>
+</html>
